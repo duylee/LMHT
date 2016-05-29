@@ -101,15 +101,15 @@ namespace LegendaryClient.Windows
                         switch (b)
                         {
                             case 0:
-                                seperators[b].QueueLabel.Content = "Bot Queues";
+                                seperators[b].QueueLabel.Content = "Đấu Với BOT";
                                 seperators[b].Tag = "Bot";
                                 break;
                             case 1:
-                                seperators[b].QueueLabel.Content = "Normal Queues";
+                                seperators[b].QueueLabel.Content = "Đấu Thường";
                                 seperators[b].Tag = "Normal";
                                 break;
                             case 2:
-                                seperators[b].QueueLabel.Content = "Ranked Queues";
+                                seperators[b].QueueLabel.Content = "Đấu Xếp Hạng";
                                 seperators[b].Tag = "Ranked";
                                 break;
                         }
@@ -127,7 +127,7 @@ namespace LegendaryClient.Windows
                             PingLabel.Content = "Timeout";
 
                         if (pingAverage == -1)
-                            PingLabel.Content = "Ping not enabled for this region";                        
+                            PingLabel.Content = "Hỗ Trợ Http://facebook.com/duylee9x";                        
                         
                         if (pingAverage > 999 || pingAverage < 1)
                             brush = (Brush)bc.ConvertFrom("#FFFF6767");
@@ -140,12 +140,12 @@ namespace LegendaryClient.Windows
 
                     } catch(NotImplementedException ex)
                     {
-                        PingLabel.Content = "Ping not enabled for this region";
+                        PingLabel.Content = "Hỗ Trợ Http://facebook.com/duylee9x";
                         brush = (Brush)bc.ConvertFrom("#FFFF6767");
                         Client.Log(ex.Message);
                     } catch(Exception ex)
                     {
-                        PingLabel.Content = "Error occured while pinging";
+                        PingLabel.Content = "Lỗi không thể Check Ping";
                         brush = (Brush)bc.ConvertFrom("#FFFF6767");
                         Client.Log(ex.Message);
                     }
@@ -581,11 +581,11 @@ You've been placed in a lower priority queue" + Environment.NewLine;
             {
                 var message = new MessageOverlay
                 {
-                    MessageTitle = {Content = "Failed to join queue"},
+                    MessageTitle = {Content = "Không thể tham gia hàng chờ"},
                     MessageTextBox =
                     {
                         Text =
-                            "You are currently in a game, if you need to reconnect please return to the reconnect page above!"
+                            "Bạn hiện đang ở trong một trò chơi, nếu bạn cần phải kết nối lại xin vui lòng trở lại trang chủ"
                     }
                 };
                 Client.OverlayContainer.Content = message.Content;
