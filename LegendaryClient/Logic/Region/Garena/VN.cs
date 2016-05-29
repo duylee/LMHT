@@ -48,7 +48,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string Locale
         {
-            get { return "vn_VN"; }
+            get { return "en_US"; }
         }
 
         public override IPAddress[] PingAddresses
