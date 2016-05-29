@@ -320,7 +320,7 @@ namespace LegendaryClient.Windows
                 PlayerProgressLabel.Content = CurrentTier;
                 if (InPromo)
                 {
-                    PlayerCurrentProgressLabel.Content = CurrentLP.Replace('N', '-');
+                    PlayerCurrentProgressLabel.Content = CurrentLP;
                     PlayerProgressBar.Value = 100;
                 }
                 else
