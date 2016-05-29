@@ -37,7 +37,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string ChatName
         {
-            get { return "chatvn1.lol.garenanow.com"; }
+            get { return ""; }
         }
 
         public override System.Uri NewsAddress
@@ -61,7 +61,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override System.Uri SpectatorLink
         {
-            get { return new System.Uri("http://125.212.222.163:80/observer-mode/rest/featured"); }
+            get { return new System.Uri("http://125.212.222.163:80/observer-mode/rest/"); }
         }
 
         public override string SpectatorIpAddress
