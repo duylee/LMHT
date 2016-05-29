@@ -22,17 +22,17 @@
         <Label x:Name="PingLabel" Margin="0,0,120,15" HorizontalAlignment="Right" VerticalAlignment="Bottom"
                Content="Checking Ping..." FontWeight="ExtraLight" FontSize="20" />
         <Button x:Name="CreateCustomGameButton" Width="140" Height="42"
-                Margin="10,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Create Custom Game"
+                Margin="10,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Tạo Trận Đấu Tùy Chọn"
                 Click="CreateCustomGameButton_Click" />
         <Button x:Name="JoinCustomGameButton" Width="140" Height="42"
-                Margin="155,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Join Custom Games"
+                Margin="155,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Đấu Tùy Chọn"
                 Click="JoinCustomGameButton_Click" />
         <ListBox x:Name="QueueListView" Margin="0,0,0,90" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent" />
         <Button x:Name="LeaveQueuesButton" Width="96" Height="28" Margin="0,0,150,57"
-                HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="Leave Queues"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="DuyLee"
                 Click="LeaveQueuesButton_Click" />
         <CheckBox x:Name="AutoAcceptCheckBox" Margin="0,0,10,65" HorizontalAlignment="Right"
-                  VerticalAlignment="Bottom" Content="Auto Accept Queue" Checked="AutoAcceptCheckBox_Checked" />
+                  VerticalAlignment="Bottom" Content="Tự Động Chấp Nhận Trận Đấu" Checked="AutoAcceptCheckBox_Checked" />
         <Controls:ProgressRing x:Name="WaitingForQueues" Margin="0,0,0,100" HorizontalAlignment="Center"
                                VerticalAlignment="Center" IsActive="True" Visibility="Hidden">
             <Controls:ProgressRing.Effect>
@@ -41,10 +41,10 @@
         </Controls:ProgressRing>
         <Button x:Name="CreateFactionGameButton" Width="140" Height="42"
                 Margin="300,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom"
-                Content="Create a Faction Game"
+                Content="Tạo Mã Giải Đấu"
                 Click="CreateFactionGameButton_Click" />
         <Button x:Name="JoinFactionGameButton" Width="140" Height="42"
-                Margin="445,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Join a Faction Game"
+                Margin="445,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Tham Gia Đấu Giải"
                 Click="JoinFactionGameButton_Click" />
     </Grid>
 </Page>
