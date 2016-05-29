@@ -28,25 +28,25 @@
             <TabItem x:Name="InGameHeader" Header="Ingame" Visibility="Collapsed">
                 <Frame x:Name="InGameContainer" />
             </TabItem>
-            <TabItem x:Name="OverviewHeader" Header="Overview" IsSelected="True">
+            <TabItem x:Name="OverviewHeader" Header="Thống Kê" IsSelected="True">
                 <Frame x:Name="OverviewContainer" />
             </TabItem>
-            <TabItem x:Name="LeagueHeader" Header="Leagues">
+            <TabItem x:Name="LeagueHeader" Header="Giải Đấu">
                 <Frame x:Name="LeaguesContainer" />
             </TabItem>
             <TabItem x:Name="TeamsHeader" Header="Teams" Visibility="Collapsed">
                 <Frame x:Name="TeamsContainer" />
             </TabItem>
-            <TabItem Header="Match History">
+            <TabItem Header="Lịch Sử Đấu">
                 <Frame x:Name="MatchHistoryContainer" />
             </TabItem>
-            <TabItem Header="Runes">
+            <TabItem Header="Ngọc Bổ Trợ">
                 <Frame x:Name="RunesContainer" />
             </TabItem>
-            <TabItem Header="Masteries">
+            <TabItem Header="Bảng Bổ Trợ">
                 <Frame x:Name="MasteriesContainer" />
             </TabItem>
-            <TabItem x:Name="ChampionsTab" Header="Champions">
+            <TabItem x:Name="ChampionsTab" Header="Tướng">
                 <Frame x:Name="ChampionsContainer" />
             </TabItem>
             <TabItem x:Name="SkinsTab" Header="Skins">
