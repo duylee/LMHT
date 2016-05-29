@@ -553,7 +553,7 @@ namespace LegendaryClient.Windows
 
             Dispatcher.BeginInvoke(DispatcherPriority.Input, new ThreadStart(() =>
             {
-                MessageBox.Show("Do not play ANY games. I am not sure if they will work ~eddy", "XMPP", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Bản quyền bởi DuyLee, mọi thắc mắc xin liên hệ sđt 01663837557", "XMPP", MessageBoxButton.OK, MessageBoxImage.Warning);
                 Client.StatusContainer.Visibility = Visibility.Visible;
                 Client.Container.Margin = new Thickness(0, 0, 0, 40);
                 //You have to hand implement this
